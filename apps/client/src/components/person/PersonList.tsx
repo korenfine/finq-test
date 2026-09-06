@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Group, Pagination, Paper, Stack } from '@mantine/core';
 import { IconUsersGroup } from '@tabler/icons-react';
-import { EmptyState } from './EmptyState';
+import { EmptyState } from '../EmptyState';
 import { FilterBar } from './FilterBar';
 import { PersonRow, type PersonListItem } from './PersonRow';
 

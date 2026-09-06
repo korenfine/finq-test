@@ -5,9 +5,9 @@ import { IconAlertCircle, IconBookmark } from '@tabler/icons-react';
 import { getPeople } from '../api/peopleApi';
 import { queryKeys } from '../api/queryKeys';
 import { EmptyState } from '../components/EmptyState';
-import { PersonList } from '../components/PersonList';
-import { PersonListSkeleton } from '../components/PersonListSkeleton';
-import type { PersonListItem } from '../components/PersonRow';
+import { PersonList } from '../components/person/PersonList';
+import { PersonListSkeleton } from '../components/person/PersonListSkeleton';
+import type { PersonListItem } from '../components/person/PersonRow';
 
 export function SavedProfiles() {
   const navigate = useNavigate();

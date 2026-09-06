@@ -7,9 +7,9 @@ import { fetchRandomUsers } from '../api/randomUserApi';
 import { queryKeys } from '../api/queryKeys';
 import { useRandomListStore } from '../store/randomListStore';
 import { EmptyState } from '../components/EmptyState';
-import { PersonList } from '../components/PersonList';
-import { PersonListSkeleton } from '../components/PersonListSkeleton';
-import type { PersonListItem } from '../components/PersonRow';
+import { PersonList } from '../components/person/PersonList';
+import { PersonListSkeleton } from '../components/person/PersonListSkeleton';
+import type { PersonListItem } from '../components/person/PersonRow';
 
 export function RandomList() {
   const navigate = useNavigate();

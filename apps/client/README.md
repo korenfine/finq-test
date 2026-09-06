@@ -58,7 +58,7 @@ apps/client/src/
   main.tsx           # MantineProvider + QueryClientProvider + BrowserRouter
   app/app.tsx        # route definitions
   pages/             # the 4 screens (Home, RandomList, SavedProfiles, ProfileDetail)
-  components/        # shared list/row/filter UI used by both list screens
+  components/        # shared UI; components/person/ holds the list/row/filter/skeleton used by both list screens
   api/               # fetch wrappers: randomuser.me and the FinQ backend
   store/             # Zustand store for the in-session random list (see DECISIONS.md)
   hooks/             # usePersonSource: resolves a profile + its origin for Screen 3
