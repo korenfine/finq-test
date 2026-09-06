@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.1.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/supertest": "^7.2.1",
+    "supertest": "^7.2.2"
+  }
+}
